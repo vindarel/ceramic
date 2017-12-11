@@ -3,6 +3,7 @@ const app = electron.app;
 const BrowserWindow = electron.BrowserWindow;
 const WebSocket = require('ws');
 const dialog = require('electron').dialog;
+const shell = require('electron').shell;
 
 var Ceramic = {
     dialog: dialog

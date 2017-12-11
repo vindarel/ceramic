@@ -34,6 +34,7 @@
                  (:file "window")
                  (:file "crashreporter")
                  (:file "dialog")
+                 (:file "shell")
                  #-quicklisp
                  (:file "ql-patch")
                  #+quicklisp

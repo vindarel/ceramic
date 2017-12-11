@@ -43,6 +43,9 @@
                 :unselect
                 :open-dev-tools
                 :close-dev-tools)
+  (:import-from :ceramic.shell
+                :open-external-links
+                :open-all-external-links)
   (:shadowing-import-from :ceramic.window
                           :close)
   (:export :window
